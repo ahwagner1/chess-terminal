@@ -1,5 +1,3 @@
 #include "include/game.hpp"
 
-ChessGame::ChessGame() {
-    board = new ChessBoard();
-}
+ChessGame::ChessGame() : board(ChessBoard()) {}
