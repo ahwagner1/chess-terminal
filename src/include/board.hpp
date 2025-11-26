@@ -16,6 +16,7 @@ class ChessBoard {
 private:
     // so ugly lol
     std::array<std::array<std::unique_ptr<Piece>, 8>, 8> pieces;
+    void setDefaultBoard();
 
 public:
     ChessBoard();
