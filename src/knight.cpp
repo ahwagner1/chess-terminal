@@ -8,5 +8,5 @@ Knight::~Knight()
 
 // need to differ from king somehow
 char Knight::getPiece() const {
-    return 'K';
+    return 'N';
 }

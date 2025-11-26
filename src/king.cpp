@@ -7,5 +7,5 @@ King::~King()
 {}
 
 char King::getPiece() const {
-    return 'R';
+    return 'K';
 }

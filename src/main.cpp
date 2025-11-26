@@ -1,8 +1,11 @@
 #include <iostream>
 
+#include "include/game.hpp"
+
 int main(void) {
 
-    std::cout << "Hello, World!\n";
+    ChessGame game = ChessGame();
+    game.playGame();
 
     return 0;
 }

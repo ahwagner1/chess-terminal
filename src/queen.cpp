@@ -7,5 +7,5 @@ Queen::~Queen()
 {}
 
 char Queen::getPiece() const {
-    return 'R';
+    return 'Q';
 }

@@ -1,5 +1,6 @@
 #pragma once
 
+#include <iostream>
 #include <array>
 #include <memory>
 
@@ -19,4 +20,7 @@ private:
 public:
     ChessBoard();
     ~ChessBoard();
+
+    void displayBoard() const;
+    void resetBoard();
 };
