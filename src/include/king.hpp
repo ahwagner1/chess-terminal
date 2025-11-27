@@ -4,7 +4,7 @@
 #include "piece.hpp"
 
 class King: public Piece {
-public:
+private:
     bool checked;
 public:
     King(uint8_t x, uint8_t y, char c);
