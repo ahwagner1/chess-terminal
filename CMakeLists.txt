@@ -18,6 +18,7 @@ set(SOURCES
     src/piece.cpp
     src/queen.cpp
     src/rook.cpp
+    src/renderer.cpp
 )
 
 set(HEADERS
@@ -30,6 +31,7 @@ set(HEADERS
     src/include/piece.hpp
     src/include/queen.hpp
     src/include/rook.hpp
+    src/include/renderer.hpp
 )
 
 add_executable(chess ${SOURCES} ${HEADERS})
