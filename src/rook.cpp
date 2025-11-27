@@ -9,3 +9,7 @@ Rook::~Rook()
 char Rook::getPiece() const {
     return 'R';
 }
+
+char Rook::getColor() const {
+    return color;
+}

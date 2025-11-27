@@ -9,3 +9,7 @@ Queen::~Queen()
 char Queen::getPiece() const {
     return 'Q';
 }
+
+char Queen::getColor() const {
+    return color;
+}

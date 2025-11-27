@@ -13,4 +13,5 @@ public:
     virtual ~Piece();
 
     virtual char getPiece() const = 0;
+    virtual char getColor() const = 0;
 };

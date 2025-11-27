@@ -8,9 +8,9 @@ ChessGame::~ChessGame()
 
 Player ChessGame::determineTurn() const {
     if ((turnCount % 2) == 0)
-        return Player::WHITE;
+        return Player::W;
 
-    return Player::BLACK;
+    return Player::B;
 }
 
 void ChessGame::playGame() {
@@ -20,7 +20,7 @@ void ChessGame::playGame() {
         Player whoseTurn = determineTurn();
 
         board.displayBoard();
-        if (whoseTurn == Player::WHITE) {
+        if (whoseTurn == Player::W) {
             std::cout << "Choice?" << std::endl;
 
             char choice;

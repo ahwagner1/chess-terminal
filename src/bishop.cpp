@@ -9,3 +9,7 @@ Bishop::~Bishop()
 char Bishop::getPiece() const {
     return 'B';
 }
+
+char Bishop::getColor() const {
+    return color;
+}

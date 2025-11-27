@@ -12,6 +12,13 @@
 #include "queen.hpp"
 #include "king.hpp"
 
+enum Colors {
+    RED,
+    BLUE,
+    WHITE,
+    RESET
+};
+
 class ChessBoard {
 private:
     // so ugly lol
@@ -24,4 +31,6 @@ public:
 
     void displayBoard() const;
     void resetBoard();
+
+    std::string enumToANSI(Colors color) const;
 };

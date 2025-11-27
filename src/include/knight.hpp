@@ -8,4 +8,5 @@ public:
     ~Knight();
 
     char getPiece() const override;
+    char getColor() const override;
 };

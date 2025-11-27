@@ -8,4 +8,5 @@ public:
     ~Queen();
 
     char getPiece() const override;
+    char getColor() const override;
 };
